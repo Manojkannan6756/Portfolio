@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.typing {
+  font-size: 1.5rem;
+  color: #ff9800;
+  border-right: 3px solid #ff9800;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.project-card {
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+#technologies .bg-dark {
+  transition: transform 0.3s;
+}
+#technologies .bg-dark:hover {
+  transform: translateY(-10px);
+}
